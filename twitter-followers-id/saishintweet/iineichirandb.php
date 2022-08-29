@@ -63,8 +63,8 @@ $stmt = $db->prepare("SELECT twitterid FROM liked_users");
 $users=[];//ID一覧を保存する空の配列をセット
 
 // while(true)//元は無限ループ(無限ループの時はスリープを解除せよ!!)久々にやるときのみ
-while(count($users)<1200){//取得数が7500に到達するまで(rate limit に引っかかるまで)継続
-// while(count($users)<100){//テスト用にミニマルで取得
+// while(count($users)<1200){//取得数が7500に到達するまで(rate limit に引っかかるまで)継続
+while(count($users)<100){//テスト用にミニマルで取得//@20220830 tweet取得数の月次キャップに引っかかったため&毎15分に処理走らせているためミニマルで大丈夫なので100に変更
     //ネクストトークンがあればそこから取得
     if(isset($next_token)){
 

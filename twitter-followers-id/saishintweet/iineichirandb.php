@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors','On');
+ini_set("memory_limit", "256M");
 //エンドポイントを指定
 $base_url = 'https://api.twitter.com/2/users/1509193639523926016/liked_tweets';//シマウマ
 // $base_url = 'https://api.twitter.com/2/users/1534759605187645440/liked_tweets';//テスト用

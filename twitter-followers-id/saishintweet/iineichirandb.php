@@ -5,7 +5,7 @@ $base_url = 'https://api.twitter.com/2/users/1509193639523926016/liked_tweets';/
 
 
 //ヘッダ生成
-$token = 'AAAAAAAAAAAAAAAAAAAAAFpKbAEAAAAAqWjd4v5wzeu19sAK%2BtV9bRc1xQI%3Dwb1vk4j5yI02l626Ix4vMf6qUAK46KOO7Y1u48ivUli3BFy4ae';  //Bearer Token
+$token = 'AAAAAAAAAAAAAAAAAAAAAFpKbAEAAAAAwtK7t8JYI%2FrCUHNXxrLYj2V5vfQ%3DJJJ7kctGu2KvCtUIE4eWPqSkKrgMHkSBcfiTj2ma5WNHVQLPHs';  //Bearer Token
 $header = [
   'Authorization: Bearer ' . $token,
   'Content-Type: application/json',

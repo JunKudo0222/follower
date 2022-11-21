@@ -7,10 +7,10 @@ require __DIR__ . '/vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 // Twitter APIを利用するための認証情報。xxxxxxxxの箇所にそれぞれの情報をセット
-const TW_CK = 'Xos2GlnvnVSUwRPTQ93Nxg40P'; // Consumer Keyをセット
-const TW_CS = 'JzG5rjNAKcwKLak1E2T4pVIDq98pqGIBBjeg5s0R7YNOPpLwiC'; // Consumer Secretをセット
-const TW_AT = '1509193639523926016-CYS2Ajkvo9zag6nJxe0EwF2vAnHKZd'; // Access Tokenをセット
-const TW_ATS = 'aOUjOVtmyLVtcq6ZlREm4Rk3H9ggRjGRUIrDVAhY3z9zh'; // Access Token Secretをセット
+const TW_CK = 'ZG2JQgtpUEJ4kcJ3oRES4jcgO'; // Consumer Keyをセット
+const TW_CS = 'Pe8vaSdNhs1DUIoVV8J7ctZ5UZ7fBI7i1uGEdSNVLt4IdIHLtM'; // Consumer Secretをセット
+const TW_AT = '1509193639523926016-zN6BdwFeeXHJsfZGecEfBVsotqialh'; // Access Tokenをセット
+const TW_ATS = 'lcmnABRo8NoCM36DsQC3ck40FHBgTn5ViLgfnlEG7Svxz'; // Access Token Secretをセット
 
 // TwitterOAuthクラスのインスタンスを作成
 $connect = new TwitterOAuth( TW_CK, TW_CS, TW_AT, TW_ATS );

@@ -27,10 +27,10 @@ require_once 'followernumber.php';
 
 require_once 'lib/twitteroauth.php';
  
-define('CONSUMER_KEY', 'Xos2GlnvnVSUwRPTQ93Nxg40P');
-define('CONSUMER_SECRET', 'JzG5rjNAKcwKLak1E2T4pVIDq98pqGIBBjeg5s0R7YNOPpLwiC');
-define('ACCESS_TOKEN', '1509193639523926016-CYS2Ajkvo9zag6nJxe0EwF2vAnHKZd');
-define('ACCESS_TOKEN_SECRET', 'aOUjOVtmyLVtcq6ZlREm4Rk3H9ggRjGRUIrDVAhY3z9zh');
+define('CONSUMER_KEY', 'ZG2JQgtpUEJ4kcJ3oRES4jcgO');
+define('CONSUMER_SECRET', 'Pe8vaSdNhs1DUIoVV8J7ctZ5UZ7fBI7i1uGEdSNVLt4IdIHLtM');
+define('ACCESS_TOKEN', '1509193639523926016-zN6BdwFeeXHJsfZGecEfBVsotqialh');
+define('ACCESS_TOKEN_SECRET', 'lcmnABRo8NoCM36DsQC3ck40FHBgTn5ViLgfnlEG7Svxz');
 
 /*
 Do not edit beyond this pointer

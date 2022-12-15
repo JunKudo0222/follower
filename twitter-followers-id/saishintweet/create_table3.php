@@ -24,7 +24,7 @@ $sql = 'CREATE TABLE '.$tablename.' (
 
 // SQL実行
 $res = $db->query($sql);
-echo "\nPDOStatement::errorInfo():\n";
+
 
 
 
@@ -49,9 +49,10 @@ $res = $stmt->execute();
   exit;
 }
 
-exit;
-
-
-
-
 $db = NULL;//データベース接続を解除
+
+echo '<br>';
+echo '追加が完了しました。';
+?>
+<br>
+<a href="../tsuika.php">入力画面へ戻る</a>
